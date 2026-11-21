@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Review your selected Dinoson products and update your cart before contacting support to place an order.">
+  <meta name="robots" content="noindex,follow">
+  <title>Your Cart | Dinoson</title>
+  <link rel="icon" type="image/png" href="dinoson-logo.png">
+  <script src="theme.js"></script>
+  <script src="loader.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="cart.js" defer></script>
+  <script src="product-catalog.js" defer></script>
+</head>
+<body>
+  <div id="ld" role="status" aria-label="Loading Dinoson"><div class="loader-brand"><img class="loader-mark" data-src="dinoson-logo-watermark.png" alt=""><b>Dinoson</b><span class="loader-tagline">POWER. INNOVATION. EXCELLENCE.</span></div></div>
+  <nav id="nav" class="cart-nav">
+    <div class="wrap nb">
+      <div class="logo"><img src="dinoson-logo-watermark.png" alt="Dinoson"><span class="brand-tagline">POWER. INNOVATION. EXCELLENCE.</span></div>
+      <a class="home-return" href="index.html" aria-label="Return to home page"><span>Return to home</span></a>
+      <button class="cart-menu-toggle" id="cartMenuToggle" aria-label="Open menu" aria-expanded="false" type="button">☰</button>
+      <div class="cart-header-links" id="cartHeaderLinks">
+        <a href="products.html">Products</a>
+        <a href="technology.html">Technology</a>
+        <a href="how-it-works.html">How it works</a>
+        <a href="compare.html">Compare</a>
+        <a href="faq.html">FAQ</a>
+        <a href="about.html">About</a>
+        <a href="support.html">Support</a>
+      </div>
+      <div class="cart-header-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode" aria-pressed="false">☾</button>
+        <a class="cart cart-current" href="cart.html" aria-label="Shopping cart">🛒<span id="headerCartCount">0</span></a>
+        <a href="products.html" class="btn o">Continue shopping</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="cart-page">
+    <div class="wrap">
+      <div class="cart-heading">
+        <div class="cart-heading-copy">
+          <small>YOUR BAG</small>
+          <h1>Shopping cart</h1>
+          <p id="cartItemCount">0 items ready for a cleaner home.</p>
+        </div>
+        <div class="checkout-progress" aria-label="Checkout progress">
+          <div class="checkout-step active"><span>1</span><b>Cart</b></div>
+          <i></i><div class="checkout-step"><span>2</span><b>Details</b></div>
+          <i></i><div class="checkout-step"><span>3</span><b>Complete</b></div>
+        </div>
+      </div>
+      <div class="cart-layout">
+        <section class="cart-items" id="cartItems" aria-live="polite"></section>
+        <aside class="cart-summary">
+          <div class="summary-title"><span class="summary-icon">✦</span><div><h2>Order summary</h2><p>All the details, up front.</p></div></div>
+          <div class="summary-row"><span>Subtotal</span><b id="subtotal">$0.00</b></div>
+          <div class="summary-row"><span>Shipping</span><b>To be confirmed</b></div>
+          <div class="summary-total"><span>Total</span><b id="total">$0.00</b></div>
+          <button class="btn checkout" id="checkout" type="button">Proceed to checkout</button>
+          <p class="delivery-note">🚚 Delivery options and timing depend on your location.</p>
+          <p class="tax-note">Displayed totals are estimates based on sample prices.</p>
+          <div class="payment-note"><span>🔒</span><p><b>Checkout information</b><br>Online payment is not enabled yet. Contact us to place your order.</p></div>
+          <p id="checkoutMessage" class="checkout-message" aria-live="polite"></p>
+        </aside>
+      </div>
+      <section class="cart-benefits" aria-label="Dinoson purchase benefits">
+        <article class="benefit-card"><span>◷</span><div><h2>30-day home trial</h2><p>Try your Dinoson at home. Returns are easy within 30 days.</p></div></article>
+        <article class="benefit-card"><span>♧</span><div><h2>5-year warranty</h2><p>Long-lasting products, backed by parts and labour coverage.</p></div></article>
+        <article class="benefit-card"><span>✉</span><div><h2>Here to help</h2><p>Questions? Email <a href="mailto:Dinosonb@gmail.com">Dinosonb@gmail.com</a>.</p></div></article>
+      </section>
+      <section class="cart-help">
+        <div><small>NEED A HAND?</small><h2>We’re here to help you choose.</h2><p>Get product advice, delivery information, or help with an order from the Dinoson support team.</p></div>
+        <a href="support.html" class="btn o">Contact support</a>
+      </section>
+      <section class="product-shelf cart-product-shelf" data-product-shelf="cart">
+        <div><div class="sh"><small>YOU MAY ALSO LIKE</small><h2>Explore more of the collection.</h2><p>Discover products for floors, air and personal care.</p></div><div class="brand-product-grid"></div></div>
+      </section>
+    </div>
+  </main>
+  <footer class="cart-footer"><div class="wrap"><span>© 2026 Dinoson. All rights reserved.</span><span>POWER. INNOVATION. EXCELLENCE.</span><a href="index.html">Back to Dinoson</a></div></footer>
+</body>
+</html>

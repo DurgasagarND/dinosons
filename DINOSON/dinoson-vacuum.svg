@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="320" viewBox="0 0 220 320" role="img">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff" />
+      <stop offset=".52" stop-color="#c8b7f4" />
+      <stop offset="1" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#fff" />
+      <stop offset=".5" stop-color="#b8a8dc" />
+      <stop offset="1" stop-color="#f8f4ff" />
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-20%" width="180%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="7" flood-color="#120c25" flood-opacity=".35" />
+    </filter>
+  </defs>
+  <g filter="url(#shadow)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M119 100 88 261" fill="none" stroke="url(#metal)" stroke-width="12" />
+    <path d="M123 96 92 258" fill="none" stroke="#fff" stroke-opacity=".65" stroke-width="2" />
+    <path d="m108 255 48 7 28 18-3 10H65l7-12 25-18z" fill="#17132b" />
+    <path d="m110 263 48 7 12 7H83z" fill="#ec4899" />
+    <path d="m96 51 24-15 26 10 5 35-20 27-32-9-13-24z" fill="url(#body)" stroke="#fff" stroke-opacity=".8" stroke-width="3" />
+    <path d="m98 52 15-24 19 5 15 13-21 17z" fill="#f3eefe" stroke="#fff" stroke-width="3" />
+    <path d="m114 30-2-15 10-8 20 4 7 8-8 11" fill="none" stroke="#c7b5ee" stroke-width="9" />
+    <path d="m105 66 23-8 17 11-2 17-17 16-21-9z" fill="#8b5cf6" stroke="#fff" stroke-opacity=".75" stroke-width="2" />
+    <circle cx="128" cy="79" r="13" fill="#251745" stroke="#f5eaff" stroke-width="3" />
+    <circle cx="128" cy="79" r="6" fill="#ec4899" />
+    <path d="m96 99 30 9-5 18-31-8z" fill="#f59e0b" stroke="#fff" stroke-width="2" />
+    <path d="m92 124 30 8" fill="none" stroke="#fff" stroke-opacity=".8" stroke-width="3" />
+  </g>
+  <circle cx="70" cy="273" r="3" fill="#fff" opacity=".8" />
+  <circle cx="184" cy="252" r="4" fill="#fff" opacity=".85" />
+  <path d="M47 229c7-8 7-14 0-22m124 2c7-8 7-14 0-22" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="3" />
+</svg>

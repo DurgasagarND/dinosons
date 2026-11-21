@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Choose two Dinoson products and compare their details side by side.">
+  <meta name="robots" content="noindex,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dinoson">
+  <meta property="og:title" content="Compare Dinoson Products | Find Your Model">
+  <meta property="og:description" content="Choose two Dinoson products and compare their details side by side.">
+  <meta name="twitter:card" content="summary">
+  <title>Compare Dinoson Products | Find Your Model</title>
+  <link rel="icon" type="image/png" href="dinoson-logo.png">
+  <script src="theme.js"></script>
+  <script src="loader.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script src="product-catalog.js" defer></script>
+  <script src="compare.js" defer></script>
+</head>
+<body>
+  <div id="ld" role="status" aria-label="Loading Dinoson"><div class="loader-brand"><img class="loader-mark" data-src="dinoson-logo-watermark.png" alt=""><b>Dinoson</b><span class="loader-tagline">POWER. INNOVATION. EXCELLENCE.</span></div></div><div id="pb"></div><div id="cg"></div>
+  <nav id="nav"><div class="wrap nb">
+    <div class="logo"><img src="dinoson-logo-watermark.png" alt="Dinoson"><span class="brand-tagline">POWER. INNOVATION. EXCELLENCE.</span></div>
+    <a class="home-return" href="index.html" aria-label="Return to home page"><span>Return to home</span></a>
+    <div class="links" id="links">
+      <a href="products.html">Products</a><a href="technology.html">Technology</a><a href="how-it-works.html">How it works</a><a href="compare.html" aria-current="page">Compare</a><a href="faq.html">FAQ</a><a href="about.html">About</a><a href="support.html">Support</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode" aria-pressed="false">☾</button>
+    <a class="cart" id="cart" href="cart.html" aria-label="Open shopping cart">🛒<span id="cn">0</span></a>
+    <a href="products.html" class="btn mg">Shop now</a><button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" type="button">☰</button>
+  </div></nav>
+  <main class="page-main">
+    <header class="page-hero page-hero-text-only"><div class="wrap">
+      <p class="page-kicker">CLEAR DETAILS. CONFIDENT CHOICES.</p>
+      <h1>Find your <span class="page-gradient">perfect fit.</span></h1>
+      <p class="page-lead">Choose any two products to see their categories, descriptions and sample prices side by side.</p>
+      <a href="#model-comparison" class="btn">Choose products <span aria-hidden="true">↓</span></a>
+    </div></header>
+    <section id="model-comparison" class="page-content"><div class="wrap">
+      <div class="sh"><small>PRODUCT COMPARISON</small><h2>Compare two products</h2><p>Use products selected from the catalog, or choose any two here. Only listed catalog details are compared.</p></div>
+      <div class="compare-picker">
+        <label for="compareProductA">First product<select id="compareProductA"></select></label>
+        <span class="compare-picker-vs" aria-hidden="true">VS</span>
+        <label for="compareProductB">Second product<select id="compareProductB"></select></label>
+        <button id="compareProducts" class="btn" type="button" disabled>Compare products</button>
+      </div>
+      <p id="compareMessage" class="compare-message" aria-live="polite"></p>
+      <div id="compareResults" class="compare-results" aria-live="polite"></div>
+      <div class="compare-actions"><p>Need help choosing? Our team can help you decide.</p><a href="products.html" class="btn">Shop products</a><a href="support.html" class="btn o">Ask for advice</a></div>
+      <p class="fine-print">Sample prices are for preview only and are not confirmed retail offers. Product details reflect the current catalog information.</p>
+    </div></section>
+  </main>
+  <footer class="page-footer"><div class="wrap"><div class="logo"><img src="dinoson-logo-watermark.png" alt="Dinoson"><span class="brand-tagline">POWER. INNOVATION. EXCELLENCE.</span></div><p>POWER. INNOVATION. EXCELLENCE.</p><div><a href="products.html">Products</a><a href="technology.html">Technology</a><a href="support.html">Support</a></div><small>© 2026 Dinoson. All rights reserved.</small></div></footer>
+</body>
+</html>
